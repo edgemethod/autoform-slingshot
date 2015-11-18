@@ -19,8 +19,8 @@ function configure(api) {
     'templating',
     'less',
     'jquery',
-    'aldeed:autoform@5.3.0',
-    'edgee:slingshot@0.6.2',
+    'aldeed:autoform@5.7.1',
+    'edgee:slingshot@0.7.1',
     "tap:i18n@1.5.1"
   ], ['client', 'server']);
 
@@ -35,7 +35,7 @@ function configure(api) {
   api.addFiles([
     'lib/client/autoform-slingshot.html',
     'lib/client/autoform-slingshot.less',
-    'lib/client/autoform-slingshot.coffee'
+    'lib/client/autoform-slingshot.js'
   ], 'client');
 
   api.add_files([
